@@ -144,6 +144,7 @@ public class Main {
                 break;
             }
         }
+
 //        TODO 8) biorąc pod uwagę tablicę policz ile razy wystapi w niej sekwencja cyfry 6 i kolejnej 6 bądź 7
 
         int complexNumbersCount = 0;
@@ -154,5 +155,20 @@ public class Main {
         }
         System.out.println("Sekwencja liczb 6 i 6 lub 6 i 7 występuje " + complexNumbersCount + " razy");
 
+//         TODO 9) 2 tablice jednowymiarowe różnej długości. wypisz true gdy pierwsze elementy tablicy lub
+//                ostatnie są równe.
+
+        int a[] = {1,2,3};
+        int b[] = {2,4,5,3};
+        boolean areIdentical;
+        if(a[0] == b[0] || a[a.length-1] == b[b.length-1]){
+            areIdentical = true;
+        } else {
+            areIdentical = false;
+        }
+        System.out.println(areIdentical);
+
+//         TODO 10) tablica double o dowolnej dlugosci. odwroc elementy i wypisz
     }
 }
+
